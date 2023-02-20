@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Demo
         run: |
-          echo "this is the correct file"
+          echo "this is the wrong file"
