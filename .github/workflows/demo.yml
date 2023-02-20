@@ -1,0 +1,12 @@
+
+name: "Demo"
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Demo
+        run: |
+          echo "this is the correct file"
